@@ -123,11 +123,7 @@ const educationInfo = {
       logo: require("./assets/images/iiitnr.png"),
       subHeader: "B. Tech - Electronics & Communication Engineering",
       duration: "December 2020 - 2024",
-      desc: "",
-      descBullets: [
-        
-        
-      ]
+      
     },
     
   ]
