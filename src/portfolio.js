@@ -155,17 +155,7 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    {
-      role: "R and D Intern",
-      company: "Samsung",
-      companylogo: require("./assets/images/s.png"),
-      date: "May 2023 – Present",
-      desc: "",
-      descBullets: [
-        "Engaged in the innovative Mono-to-Stereo Conversion project leveraging Autoencoder technology to transform mono audio into high-quality stereo audio, thereby improving the overall listener experience",
-        "Utilized Autoencoder's encoding-decoding capabilities to convert mono audio into stereo encapsulating essential sound characteristics and expanding them into stereo format."
-      ]
-    },
+   
     {
       role: "AI Research Intern",
       company: "NIT Surat",
