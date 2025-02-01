@@ -23,7 +23,7 @@ const greeting = {
   username: "Rahul Shukla",
   title: "Hi all, I'm Rahul",
   subTitle: emoji(
-    "A dynamic developer 🚀 with expertise in Audio and Image Processing from roles at Samsung and NIT Surat. Proven excellence in projects like Mono-to-Stereo Conversion and Single Shot Face Recognition, complemented by strong accolades from IIIT Naya Raipur and Kaggle. Proficient in Python, C++, and advanced frameworks like TensorFlow and PyTorch."
+    "A passionate Full Stack Software Developer 🚀 with experience in building dynamic Web and Mobile applications using JavaScript, React.js, Node.js[MERN]. Previously an intern at Samsung and NIT Surat, I have worked on innovative projects, blending Full Stack Development with AI-driven solutions. Skilled in Python and C++, with hands-on experience in frameworks like TensorFlow and PyTorch, I bring a problem-solving mindset and a deep understanding of modern development practices."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1x-HNAFsESViGgSEt9Es2cmeLAbUI2VFr/view?usp=sharing", // Set to empty to hide the button
