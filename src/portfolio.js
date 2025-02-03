@@ -23,10 +23,10 @@ const greeting = {
   username: "Rahul Shukla",
   title: "Hi all, I'm Rahul",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 with experience in building dynamic Web and Mobile applications using JavaScript, React.js, Node.js[MERN]. Previously an intern at Samsung and NIT Surat, I have worked on innovative projects, blending Full Stack Development with AI-driven solutions. Skilled in Python and C++, with hands-on experience in frameworks like TensorFlow and PyTorch, I bring a problem-solving mindset and a deep understanding of modern development practices."
+    "A passionate Full Stack Software Developer 🚀 with experience in building dynamic Web applications using JavaScript, React.js, Node.js[MERN]. Previously an intern NIT Surat and IIITM Gwalior, I have worked on innovative projects, blending Full Stack Development with AI-driven solutions. Skilled in Python and C++, with hands-on experience in frameworks like TensorFlow and PyTorch, I bring a problem-solving mindset and a deep understanding of modern development practices."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1x-HNAFsESViGgSEt9Es2cmeLAbUI2VFr/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1DZit1BAMC1W5f87uTiQJ8x0dE3QgvpMC/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -50,14 +50,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY NEURAL NETWORK DEVELOPER WHO WANTS TO OPTIMISE EVERY NEURAL NET OUT THERE",
+  subTitle: "FULL-STACK DEVELOPER WHO BUILDS SCALABLE AND EFFICIENT SOLUTIONS",
   skills: [
     emoji(
-      "⚡ Develop highly efficient Computer Vision / Natural Language Processing Models for high end Object Detection and Text Processing"
+      "⚡ Develop full-stack web applications using React, Node.js, Express, MongoDB, and Socket.io to create seamless and responsive user experiences."
     ),
-    emoji("⚡ Leveraged state-of-the-art tools and platforms like TensorFlow, PyTorch, and Kaggle GPU Accelerator for optimal results."),
+    emoji("⚡ Design and implement scalable backend architectures using Node.js, Express, and MongoDB, ensuring high performance and easy maintenance."),
     emoji(
-      "⚡ Integration of Heavy Computer Vision Models with Nano-Powered GPU Accelerator such as Jetsen Nano/ Rpi"
+      "⚡ Leverage AI frameworks like TensorFlow and PyTorch to build models in Computer Vision and Natural Language Processing."
     )
   ],
 
@@ -78,38 +78,46 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-cuttlefish"
     },
     {
-      skillName: "sql-database",
+      skillName: "react",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "node.js",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "express",
+      fontAwesomeClassname: "fab fa-node-js"
+    },
+    {
+      skillName: "mongodb",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "tensorflow",
-      fontAwesomeClassname: "fas fa-brain"  // There's no dedicated TensorFlow icon in FontAwesome; using a generic AI icon as a placeholder
+      skillName: "javascript",
+      fontAwesomeClassname: "fab fa-js-square"
     },
     {
-      skillName: "pytorch",
-      fontAwesomeClassname: "fas fa-fire-alt"  // Similarly, using a different fire-related icon for PyTorch as a placeholder
+      skillName: "css",
+      fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "opencv",
-      fontAwesomeClassname: "fas fa-eye"  // Using an eye icon as a placeholder for OpenCV
+      skillName: "socket.io",
+      fontAwesomeClassname: "fas fa-plug"
     },
     {
-      skillName: "numpy",
-      fontAwesomeClassname: "fas fa-calculator"  // Using calculator as a representation for mathematical calculations in NumPy
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
     },
     {
-      skillName: "matplotlib",
-      fontAwesomeClassname: "fas fa-chart-bar"
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "pandas",
-      fontAwesomeClassname: "fas fa-table"
-    },
-    {
-      skillName: "scikit-learn",
-      fontAwesomeClassname: "fas fa-leaf"
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
     }
-],
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
