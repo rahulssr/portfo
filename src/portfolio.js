@@ -198,35 +198,46 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Impactfull Projects",
-  subtitle: "Project to whom I gave countless days and nights to achieve",
+  title: "Impactful Projects",
+  subtitle: "Projects to which I dedicated countless days and nights to achieve",
   projects: [
     {
+      image: require("./assets/images/Portal.webp"),
+      projectName: "NxtHire - A Seamless & Scalable Job Portal",
+      projectDesc: "Engineered a sophisticated job portal optimizing hiring workflows, integrating real-time notifications, seamless job applications, and enterprise-grade authentication to elevate user engagement and operational agility. Built using React, Node.js/Express, and MongoDB, fortified with Clerk authentication and Cloudinary for media handling.",
+      footerLink: [
+        {
+          name: "Visit Link",
+          url: "https://job-portal-client-wine-nine.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Chattify.webp"),
+      projectName: "Chattify - A Real-time Chat Application",
+      projectDesc: "Developed a cutting-edge real-time messaging application that ensures instantaneous and frictionless communication, utilizing advanced web technologies for a highly responsive and immersive user experience. Integrated Socket.io for low-latency messaging, JWT for secure authentication, and Cloudinary for media handling.",
+      footerLink: [
+        {
+          name: "Visit Link",
+          url: "https://chattify-8jyl.onrender.com/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/rover.webp"),
-      projectName: "WeedPro: AI-Powered Detection Onion Fields",
-      projectDesc: "We meticulously curated a dataset comprising 800 annotated images aimed at augmenting weed detection capabilities in Chhattisgarh's onion fields. We leveraged a modified U-Net Neural Network architecture to achieve advanced multi-class segmentation, a claim substantiated by a 0.65 cosine similarity during evaluations and the solution was seamlessly integrated and deployed on a rover using the Jetson Nano platform.. The technology stack underpinning this endeavor included Python, OpenCV, Kaggle GPU Accelerator, Scikit-Learn, and TensorFlow,Jetsen Nano.",
+      projectName: "Deep Learning-Based Weed Detection System",
+      projectDesc: "Developed a specialized weed detection system for Chhattisgarh’s onion fields, leveraging a dataset of 800 images and a modified U-Net model to achieve 94% segmentation accuracy. Integrated the solution with hardware to facilitate precise weed identification and removal in agricultural fields.",
       footerLink: [
         {
           name: "Visit Link",
           url: "https://github.com/rahulssr/Weed-Segmentation"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/textclf.webp"),
-      projectName: "Patent_Classification",
-      projectDesc: "In the Patent_classification project, extensive data engineering and analysis were performed on a comprehensive patent dataset, accentuating vital legal insights, stripping away superfluous information, and pinpointing inconsistencies. The project employed an advanced LLM ensemble, combining the strengths of RoBERTa and DeBERTa, to achieve nuanced legal semantic extraction. This endeavor was powered by a tech stack encompassing Python, PyTorch, the Kaggle GPU Accelerator, and Scikit-Learn.",
-      footerLink: [
-        {
-          name: "Visit Link",
-          url: "https://github.com/rahulssr/Patent_Classification"
         }
       ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
