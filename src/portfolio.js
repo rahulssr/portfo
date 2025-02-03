@@ -143,21 +143,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Computer Vision", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "PyTorch",
+      Stack: "React & Frontend Development",
       progressPercentage: "85%"
     },
     {
-      Stack: "Python",
-      progressPercentage: "90%"
+      Stack: "Node.js & Backend Development",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "MongoDB & Database Management",
+      progressPercentage: "75%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // Set true to display codersrank badges section need to change your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
-
 // Work experience section
 
 const workExperiences = {
